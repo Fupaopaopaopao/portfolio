@@ -7,13 +7,13 @@ import Experiences from "@/sections/Experiences";
 // import  Contact  from "@/sections/Contact";
 const App = () => {
   return (
-    <div className="min-h-screen overflow-x-hidden">
+    <div className=" min-h-screen overflow-x-hidden">
       <Navbar />
       <main>
         <Hero />
-        {/*<About />
+        <About />
         <Projects />
-        <Experiences /> */}
+        {/* <Experiences />  */}
         {/* <Testimoinals /> */}
         {/* <Contact /> */}
       </main>
