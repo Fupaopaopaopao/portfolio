@@ -4,7 +4,7 @@ import About from "@/sections/About";
 import Projects from "@/sections/Projects";
 import Experiences from "@/sections/Experiences";
 // import  Testimoinals  from "@/sections/Testimonials";
-// import  Contact  from "@/sections/Contact";
+import Contact from "@/sections/Contact";
 const App = () => {
   return (
     <div className=" min-h-screen overflow-x-hidden">
@@ -13,9 +13,9 @@ const App = () => {
         <Hero />
         <About />
         <Projects />
-        {/* <Experiences />  */}
+        <Experiences />
         {/* <Testimoinals /> */}
-        {/* <Contact /> */}
+        <Contact />
       </main>
       {/* <Footer /> */}
     </div>

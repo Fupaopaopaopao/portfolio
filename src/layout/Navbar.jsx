@@ -23,7 +23,6 @@ const Navbar = () => {
     { href: "#about", label: "About" },
     { href: "#projects", label: "Projects" },
     { href: "#experience", label: "Experience" },
-    { href: "#testimonials", label: "Testimonials" },
   ];
   return (
     <header
@@ -49,10 +48,11 @@ const Navbar = () => {
             ))}
           </div>
         </div>
-
-        <Button size="sm" className="hidden md:block">
-          Contact Me
-        </Button>
+        <a href="#contact">
+          <Button size="sm" className="hidden md:block">
+            Contact Me
+          </Button>
+        </a>
 
         {/* mobile menu btn */}
 
@@ -77,8 +77,9 @@ const Navbar = () => {
                 {navLink.label}
               </a>
             ))}
-
-            <Button className="w-full">Contact Me</Button>
+            <a href="#contact">
+              <Button className="w-full">Contact Me</Button>
+            </a>
           </div>
         </div>
       )}
