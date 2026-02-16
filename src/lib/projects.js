@@ -1,42 +1,48 @@
-import { applyBlockNoteCSSVariablesFromTheme } from "@blocknote/mantine";
-import { page } from "hexo/dist/plugins/helper/is";
-
 export const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Realtime Chat App ",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
-    image: "/projects/project1.png",
-    tags: ["React", "Typescript", "NodeJS"],
-    link: "#",
-    github: "#",
+      "A full-stack real-time chat platform to explore scalable authentication and live messaging architecture beyond traditional REST-based systems.",
+    image: "/projects/chatapp.png",
+    tags: [
+      "React",
+      "Nodejs",
+      "MongoDB",
+      "Express",
+      "Tailwindcss",
+      "Zustand",
+      "Socket.io",
+      "Javascript",
+    ],
+    link: "https://fullstack-orangechat.onrender.com/login",
+    github:
+      "https://github.com/Fupaopaopaopao/fullstack-orangeChat/tree/main?tab=readme-ov-file",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Portfolio Page",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
-    link: "#",
-    github: "#",
+      "A single-page responsive portfolio page using React and Tailwind CSS, emphasizing multi-device adaptability and performance-conscious UI design.",
+    image: "/projects/port.png",
+    tags: ["React", "Tailwindcss", "Javascript"],
+    github: "https://github.com/Fupaopaopaopao/portfolio",
   },
   {
-    title: "AI Writing Assistant",
+    title: "Loading Page of MentalPhi",
     description:
-      "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
-    image: "/projects/project3.png",
-    tags: ["React", "OpenAI", "Python", "FastAPI"],
-    link: "#",
-    github: "#",
+      "A single-page responsive loading page using React and Tailwind CSS, emphasizing multi-device adaptability and performance-conscious UI design.",
+    image: "/projects/loadpage.png",
+    tags: ["React", "Tailwindcss", "Javascript"],
+
+    github: "https://github.com/Fupaopaopaopao/loadingpage",
   },
   {
-    title: "Project Management Tool",
+    title: "Research: Mental Phi",
     description:
-      "A collaborative workspace for teams with real-time updates, task tracking, and integrations.",
-    image: "/projects/project4.png",
-    tags: ["Next.js", "Socket.io", "MongoDB", "Redis"],
-    link: "#",
-    github: "#",
+      "Explored zero-shot to LoRA fine-tuning strategies for multi-task mental health classification and investigated performance optimization under resource-constrained settings.",
+    image: "/projects/llm.png",
+    tags: ["Python", "LLMs", "research", "fine-tuning"],
+    link: "https://arxiv.org/abs/2507.08031",
+    github: "https://github.com/Fupaopaopaopao/Mental-phi",
   },
 ];
 

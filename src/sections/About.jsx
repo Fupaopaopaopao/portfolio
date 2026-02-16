@@ -49,22 +49,19 @@ const About = () => {
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                Computer Science graduate (Mid-2025) actively seeking a Frontend
+                Developer position. Passionate about solving complex problems
+                through practical and performance-driven solutions. With over
+                seven months of frontend development internship experience, I
+                have worked in professional team environments and contributed to
+                scalable, production-ready systems.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
-              </p>
-              <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                During my internship, I independently developed internal
+                enterprise tools for managing and monitoring data migration
+                workflows. Through both industry experience and personal
+                projects, I have developed strong enthusiasm for modern frontend
+                technologies, including React and Next.js, etc.
               </p>
             </div>
 

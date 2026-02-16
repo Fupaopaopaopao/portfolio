@@ -41,12 +41,15 @@ const Projects = () => {
                  to-transparent opacity-60 group-hover:opacity-100"
                 />
                 <div className="absolute inset-0 items-center justify-center gap-4 hidden group-hover:flex animate-fade-in ">
-                  <a
-                    href={project.link}
-                    className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
-                  >
-                    <ArrowUpRight className="size-5" />
-                  </a>
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                    >
+                      <ArrowUpRight className="size-5" />
+                    </a>
+                  )}
+
                   <a
                     href={project.github}
                     className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
